@@ -5,12 +5,7 @@
     <title>MSM </title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Montserrat:wght@100&family=Norican&family=Pattaya&family=Satisfy&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
 
@@ -22,10 +17,9 @@
                 <i class="fa fa-times-circle" onclick="hiderMenu()"></i>
                 <ul>
                    
-                    
                     <li><a href="saibamais.html">Saiba mais</a></li>
                     <li><a href="inicio.html"> Inicio</a></li>
-                  
+                    <li><a href=" cadastro.html"> Cadastre-se</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -35,11 +29,7 @@
     </section>
      
    
-    <footer class="roda">
-        <h1> Quem somos?</h1><br>
-<p> Somos quem somos, pq somos </p><br>
-</footer>  
-
+   
     <!-- rodapé -->
    
         
@@ -48,13 +38,23 @@
 
 </body>
 <script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu() {
-        navLinks.style.right ="0";
+ function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
     }
-    function hiderMenu(){
-        navLinks.style.right ="200px";
-    }
+  }
+
+
+    // var navLinks = document.getElementById("navLinks");
+    // function showMenu() {
+    //     navLinks.style.right ="0";
+    // }
+    // function hiderMenu(){
+    //     navLinks.style.right ="200px";
+    // }
     
 
     
