@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Playpen+Sans:wght@100;200;300;400;500&family=Quicksand:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Quicksand';
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+ .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: none;
+    position: fixed; 
+    width: 100%;
+    z-index: 100;
+ }
+
+ .navbar {
+    display: flex;
+    margin-right: 10px;
+ }
+
+.logo {
+    margin-left: 30px;
+    margin-top: 160px;
+}
+
+ .logo a {
+    text-decoration: none;
+    color: #080707;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+
+ .navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+ }
+
+ .navbar a:hover {
+    background: #c58ab1;
+ }
+
+ .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .header {
+    height: 80vh !important;
+    background: url(img/MSMTCC.jfif) no-repeat center;
+    background-size: cover;
+ }
+
+ .title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0e0a0a;
+
+ }
+
+ p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+ }
+
+ .btn {
+    display: inline-block;
+    margin-top: 0px;
+    padding: 10px 40px;
+    border: 2px solid #c58ab1;
+    color: #fff;
+    text-decoration: none;
+    background: #c58ab1;                                                                                                                                                                                                                                                                                                                                                                                                   
+ }
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin:  30px;
+    margin-top: 300px;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.sau {
+
+   padding: 30px;
+   background: #E6AEBF;
+   padding-top: 5%;  
+   
+   
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 16rem;
+    width: 17rem;
+    background: #d6bcbc;
+    text-align: center;
+    border-radius: 17rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #faf8f8;
+    background: #c58ab1;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #c58ab1;
+}
+
+.box-container .box p {
+    padding:  15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #E6AEBF;
+}
+
+.price {
+    background: url(img/MSMTCC.jfif) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 230px;
+}
+
+
+@media  (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}

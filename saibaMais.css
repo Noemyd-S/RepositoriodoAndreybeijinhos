@@ -1,0 +1,13 @@
+body{
+    background-color: #e6a8b6;
+}
+
+.container{
+    background-color:#fd0b3f;
+    display: flex;
+     flex-direction: column;
+     justify-content: center; 
+    /* justify-content: flex-start; */
+    /* justify-content: space-around; */
+
+}
