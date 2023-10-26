@@ -8,10 +8,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href=" saibaMais.css">
+    <link rel="stylesheet" type="text/css" href="..\estilo\saibaMais.css">
     <title> Saiba Mais </title>
 </head>
-
 <body>
     <!-- Deu certo  o Carrossel 1-->
     <!-- Colocação de botões para mover em baixo _ _ (parece travessão)  -->
@@ -44,64 +43,64 @@
       -->
             <div id="imagens" class="carousel-inner mx-auto" style="width: 800px;">
                 <div class="carousel-item active">
-                    <img src="css\assets\img\carousel1\Mitos1.png " class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel1\Mitos1.png " class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos2.png" class="img-fluid" alt="ima2" />
+                    <img src="..\css\assets\img\carousel1\Mitos2.png" class="img-fluid" alt="ima2" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos3.png " class="img-fluid" alt="ima3" />
+                    <img src="..\css\assets\img\carousel1\Mitos3.png " class="img-fluid" alt="ima3" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos4.png " class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel1\Mitos4.png " class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos5.png" class="img-fluid" alt="ima2" />
+                    <img src="..\css\assets\img\carousel1\Mitos5.png" class="img-fluid" alt="ima2" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos6.png " class="img-fluid" alt="ima3" />
+                    <img src="..\css\assets\img\carousel1\Mitos6.png " class="img-fluid" alt="ima3" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos7.png " class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel1\Mitos7.png " class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos8.png" class="img-fluid" alt="ima2" />
+                    <img src="..\css\assets\img\carousel1\Mitos8.png" class="img-fluid" alt="ima2" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos9.png " class="img-fluid" alt="ima3" />
+                    <img src="..\css\assets\img\carousel1\Mitos9.png " class="img-fluid" alt="ima3" />
                 </div>
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos10.png " class="img-fluid" alt="ima1" />
-                </div>
-
-                <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos11.png" class="img-fluid" alt="ima2" />
+                    <img src="..\css\assets\img\carousel1\Mitos10.png " class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos12.png " class="img-fluid" alt="ima3" />
-                </div>
-                <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos13.png " class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel1\Mitos11.png" class="img-fluid" alt="ima2" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos14.png" class="img-fluid" alt="ima2" />
+                    <img src="..\css\assets\img\carousel1\Mitos12.png " class="img-fluid" alt="ima3" />
+                </div>
+                <div class="carousel-item">
+                    <img src="..\css\assets\img\carousel1\Mitos13.png " class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos15.png " class="img-fluid" alt="ima3" />
+                    <img src="..\css\assets\img\carousel1\Mitos14.png" class="img-fluid" alt="ima2" />
+                </div>
+
+                <div class="carousel-item">
+                    <img src="..\css\assets\img\carousel1\Mitos15.png " class="img-fluid" alt="ima3" />
                 </div>
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel1\Mitos16.png " class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel1\Mitos16.png " class="img-fluid" alt="ima1" />
                 </div>
                 <!-- final das imagens -->
 
@@ -119,6 +118,7 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <h1> Violência Doméstica o que é ? </h1><br />
         <div id="violencia" class="carousel slide" data-bs-ride="carousel">
@@ -140,35 +140,35 @@
       -->
             <div id="imagens" class="carousel-inner mx-auto" style="width: 800px;">
                 <div class="carousel-item active">
-                    <img src="css\assets\img\carousel2\tIpos de violencia1.png" class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel2\tIpos de violencia1.png" class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel2\tIpos de violencia2.png" class="img-fluid" alt="ima2" />
+                    <img src="..\css\assets\img\carousel2\tIpos de violencia2.png" class="img-fluid" alt="ima2" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel2\tIpos de violencia3.png" class="img-fluid" alt="ima3" />
+                    <img src="..\css\assets\img\carousel2\tIpos de violencia3.png" class="img-fluid" alt="ima3" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel2\tIpos de violencia4.png" class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel2\tIpos de violencia4.png" class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel2\tIpos de violencia5.png" class="img-fluid" alt="ima2" />
+                    <img src="..\css\assets\img\carousel2\tIpos de violencia5.png" class="img-fluid" alt="ima2" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel2\tIpos de violencia6.png " class="img-fluid" alt="ima3" />
+                    <img src="..\css\assets\img\carousel2\tIpos de violencia6.png " class="img-fluid" alt="ima3" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src=" css\assets\img\carousel2\tIpos de violencia7.png" class="img-fluid" alt="ima1" />
+                    <img src=" ..\css\assets\img\carousel2\tIpos de violencia7.png" class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel2\tIpos de violencia8.png" class="img-fluid" alt="ima2" />
+                    <img src="..\css\assets\img\carousel2\tIpos de violencia8.png" class="img-fluid" alt="ima2" />
                 </div>
                 <!-- final das imagens -->
 
@@ -185,8 +185,9 @@
             </div>
         </div>
     </div>
+
     <div class="container">
-        <h1> Mitos sobre a Violência Doméstica </h1><br />
+        <h1> Ciclo da violência</h1><br />
         <div id="abrigo" class="carousel slide" data-bs-ride="carousel">
             <div id="indicadores" class="carousel-indicators">
                 <button type="button" data-bs-target="#abrigo" data-bs-slide-to="0" class="active"> </button>
@@ -201,19 +202,19 @@
       -->
             <div id="imagens" class="carousel-inner mx-auto" style="width: 800px;">
                 <div class="carousel-item active">
-                    <img src="css\assets\img\carousel3\Ciclo de Violência1.png " class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel3\Ciclo de Violência1.png " class="img-fluid" alt="ima1" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src=" css\assets\img\carousel3\Ciclo de Violência2.png" class="img-fluid" alt="ima2" />
+                    <img src=" ..\css\assets\img\carousel3\Ciclo de Violência2.png" class="img-fluid" alt="ima2" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src=" css\assets\img\carousel3\Ciclo de Violência3.png" class="img-fluid" alt="ima3" />
+                    <img src=" ..\css\assets\img\carousel3\Ciclo de Violência3.png" class="img-fluid" alt="ima3" />
                 </div>
 
                 <div class="carousel-item">
-                    <img src="css\assets\img\carousel3\Ciclo de Violência4.png " class="img-fluid" alt="ima1" />
+                    <img src="..\css\assets\img\carousel3\Ciclo de Violência4.png " class="img-fluid" alt="ima1" />
                 </div>
                 <!-- final das imagens -->
 

@@ -10,7 +10,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image:url("./css/assets/Mulheres\ Salvam\ Mulheres.png");
+    background-image:url("../css/assets/mulheres.png");
     background-position: center ;
     background-size: cover;
     position: relative; 
