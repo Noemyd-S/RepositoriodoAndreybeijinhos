@@ -1,5 +1,5 @@
 <?php
-    header("Location: conexao.php");
+    
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,7 +19,7 @@
                 <ul>
                     <li><a href="../../html\telas\quemSomos.html">Home</a></li>
                     <li><a href="../../html\telas\entrar.html "> Entrar</a></li>
-                    <li><a href="../../../html\telas\cadastro.html"> Cadastre-se</a></li>
+                    <li><a href="../../../html\telas\cadastro.php"> Cadastre-se</a></li>
                     <li><a href="../../php\carousel\mitonovo.php">Saiba Mais</a></li>
 
                 </ul>
