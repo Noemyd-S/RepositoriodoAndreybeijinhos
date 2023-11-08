@@ -1,9 +1,12 @@
-*{
-
+.container{
+    background-color: blue;
 }
+
+
+
 .allcard{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+  
 }
