@@ -14,6 +14,7 @@
 <body>
     <!-- Deu certo  o Carrossel 1-->
     <!-- Colocação de botões para mover em baixo _ _ (parece travessão)  -->
+    <br/>
     <div class="container">
         <h1> Mitos sobre a Violência Doméstica </h1><br />
         <div id="banner" class="carousel slide" data-bs-ride="carousel">
@@ -107,7 +108,7 @@
                 <!-- inicio dos controles (setas dos dois lados/ ida e volta) -->
                 <div id="controles">
                     <button type="button" class=" carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev" style="border: none; background-color: transparent"> <!-- alteração para a coluna ficar tranparente e não aparecer-->
-                        <span class=" carousel-control-prev-icon" style="background-color: yellow;"></span>
+                        <span class=" carousel-control-prev-icon" style="background-color: blueviolet;"></span>
                     </button>
                     <!-- segundo botão de seta -->
                     <button type="button" class=" carousel-control-next" data-bs-target="#banner" data-bs-slide="next" style="border: none; background-color: transparent">
@@ -118,7 +119,7 @@
             </div>
         </div>
     </div>
-
+    <br/>
     <div class="container">
         <h1> Violência Doméstica o que é ? </h1><br />
         <div id="violencia" class="carousel slide" data-bs-ride="carousel">
@@ -185,7 +186,7 @@
             </div>
         </div>
     </div>
-
+    <br/>
     <div class="container">
         <h1> Ciclo da violência</h1><br />
         <div id="abrigo" class="carousel slide" data-bs-ride="carousel">
@@ -231,6 +232,7 @@
             </div>
         </div>
     </div>
+    <br/>
     <!-- Fechando a primeira div aqui é possível os controles estarem na imagem -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

@@ -17,23 +17,17 @@
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times-circle" onclick="hiderMenu()"></i>
                 <ul>
-                    <li><a href="../../html\telas\quemSomos.html">Home</a></li>
+                    <li><a href="../../html\telas\quemSomos.html"> Quem Somos?</a></li>
                     <li><a href="../../html\telas\entrar.html "> Entrar</a></li>
                     <li><a href="../../../html\telas\cadastro.php"> Cadastre-se</a></li>
-                    <li><a href="../../php\carousel\mitonovo.php">Saiba Mais</a></li>
+                    <li><a href="../../php\carousel\saibaMais.php">Saiba Mais</a></li>
 
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-
-
     </section>
-     
-   
-   
-    <!-- rodapé -->
-
+    
 </body>
    <script>
      function myFunction() {
@@ -44,18 +38,6 @@
         x.style.display = "none";
         }
     }
-
-
-    // var navLinks = document.getElementById("navLinks");
-    // function showMenu() {
-    //     navLinks.style.right ="0";
-    // }
-    // function hiderMenu(){
-    //     navLinks.style.right ="200px";
-    // }
-    
-
-    
 
 </script>
 
