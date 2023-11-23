@@ -1,6 +1,6 @@
 body{
-    background: rgb(244,215,221);
-background: linear-gradient(180deg, rgba(244,215,221,1) 0%, rgba(224,156,170,1) 66%);
+    background-color: #f4d7dd
+/* background: linear-gradient(90deg,#FFF7AD 0%, #FFA9F9 100%); */
 
 }
 
@@ -13,7 +13,7 @@ background: linear-gradient(180deg, rgba(244,215,221,1) 0%, rgba(224,156,170,1) 
 
 }
 h1{
-    color: #FF0571;
+    color: #c25483;
     text-align: center;
     border: #fa7590 5px solid;
     border-radius: 10px;

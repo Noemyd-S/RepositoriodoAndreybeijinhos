@@ -1,5 +1,5 @@
 <?php
-if(($_POST['submit']))
+if(isset($_POST['submit']))
 {
     include_once('../../config.php');
     
@@ -231,7 +231,7 @@ body {
                <img src="../../css\assets\real DN.png" alt=""> 
             </div>
             <div class="form">
-                <form action="#">
+                <form action="cadastro.php" method="POST" >
                     <div class="form-header">
                         <div class="title">
                             <h1>Cadastre-se</h1>
