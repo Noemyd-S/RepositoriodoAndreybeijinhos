@@ -1,8 +1,10 @@
 <?php
 if(isset($_POST['submit']))
 {
-    include_once('../../config.php');
+
     
+  include_once('config.php'); 
+
     $nome = $_POST['nome'];
     $sobrenome = $_POST['sobrenome'];
     $cpf = $_POST['cpf'];
@@ -12,10 +14,26 @@ if(isset($_POST['submit']))
 
     $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,sobrenome,cpf,email,senha,data_de_nascimento) 
         VALUES('$nome','$sobrenome','$cpf','$email','$senha','$data_nasc')");
+
+    // print_r('Nome: ' . $_POST['nome']);
+    // print_r('<br>');
+    // print_r('Sobrenome: '. $_POST['sobrenome']);
+    // print_r('<br>');
+    // print_r('CPF: '.$_POST['cpf']);
+    // print_r('<br>');
+    // print_r('Email: ' . $_POST['email']);
+    // print_r('<br>');
+    // print_r('Senha: '. $_POST['senha']);
+    // print_r('<br>');
+    // print_r('Data de nascimento: '. $_POST['data_de_nascimento']);
     
-// header('Location: ../../html\telas\entrar.html');
+
+    // header('Location: ../../html\telas\entrar.html');
+    
+
 
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -266,11 +284,6 @@ body {
                         <label for="senha">Senha</label>
                         <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
                     </div>
-
-                    <!-- <div class="input-box">
-                        <label for="Confirmpassaword">Confirme sua senha</label>
-                        <input id="Confirmpassaword" type="password" name="Confirmpassaword" placeholder="Confirme sua senha" required>
-                    </div> -->
 
                     <div class="input-box">
                         <label for="data_de_nascimento"> Data de nascimento: </label>
