@@ -11,6 +11,7 @@
 body {
     text-align: center;
     font-family: sans-serif;
+    
 }
 
 
@@ -175,8 +176,6 @@ body {
     text-align: center;
     padding: 230px;
 }
-
-
 @media  (max-width: 768px) {
 
     .title {

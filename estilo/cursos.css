@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Playpen+Sans:wght@100;200;300;400;500&family=Quicksand:wght@300;400&display=swap');
+*{
+    font-family: 'Quicksand';
+    background-color: #f4d7dd
+    
+}
+
+.body {
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+h1{
+    
+}
+.Nome {
+    margin-left: 48%;
+}
+.videomaker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    color: transparent;
+}

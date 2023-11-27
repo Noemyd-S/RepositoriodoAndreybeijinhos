@@ -17,11 +17,13 @@
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times-circle" onclick="hiderMenu()"></i>
                 <ul>
+                <li><a href="../../../html\telas\inicio.html ">Cursos</a></li> 
+                <li><a href="../../html\AprenderAlertas.html"> Alertas</a></li>
                     <li><a href="../../html\telas\quemSomos.html"> Quem Somos?</a></li>
                     <li><a href="../../html\telas\entrar.html "> Entrar</a></li>
                     <li><a href="cadastro.php"> Cadastre-se</a></li>
                     <li><a href="../../php\carousel\saibaMais.php">Saiba Mais</a></li>
-
+                   
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>

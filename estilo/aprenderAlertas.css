@@ -14,3 +14,15 @@
     align-items: center;
     margin-top: 50px;
 }
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+h1{
+   
+    text-align: center;
+    border: #fa7590 5px solid;
+    border-radius: 10px;
+}
